@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.8.2
+ * Plugin Version: 1.8.3
  * 
  */
 
@@ -55,7 +55,7 @@ function ajaxpmnotice_activate()
 	(
 		'name'=>$info['codename'],
 		'title'=>$info['name'],
-		'description'=>'Here you can edit '.$info['name'].' settings.',
+		'description'=>''.$lang->ajaxpmnotice_options_1.''.$info['name'].''.$lang->ajaxpmnotice_options_2.'',
 		'disporder'=>1,
 		'isdefault'=>0
 	);
@@ -65,8 +65,8 @@ function ajaxpmnotice_activate()
 	(
 		'ajaxpmnotice_refresh'=>array
 		(
-			'Refresh interval',
-			'Set the refresh interval (in milliseconds).',
+			''.$lang->ajaxpmnotice_options_3.'',
+			''.$lang->ajaxpmnotice_options_4.'',
 			'text',
 			20000
 		)

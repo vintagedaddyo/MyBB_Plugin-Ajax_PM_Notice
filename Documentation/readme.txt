@@ -17,6 +17,16 @@ Updated to version 1.8.2 for MyBB 1.8.x usage by: Vintagedaddyo
 - Minor directory changes
 - Added alert sound
 
+* Updated to version 1.8.3
+ 
+Further localization support
+
+- english
+- englishgb
+- espanol
+- french
+- italiano
+
 Compatibility
 MyBB 1.8: Yes 
 
